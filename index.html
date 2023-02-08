@@ -1,0 +1,45 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="container p-5">
+        <h2 class="title fw-bold">Bookmarker</h2>
+    </div>
+    </header>
+    <div class="container text-center bg-light p-4">
+        <h2 class="p-4 ">Bookmark your favorite sites</h2>
+        <h5>Site Name</h5>
+        <input id="bookmarkerName" placeholder="bookmarker Name"  type="text">
+        <div id="nameWarning" class="d-none  m-auto my-2 wa-div text-center">
+        </div>
+        <h5>Site URL</h5>
+        <input id="bookmarkerURL" placeholder="Website URL"  type="text">
+        <div id="urlWarning" class="d-none  m-auto my-2 wa-div text-center"></div>
+        <br>
+        <button onclick="addbookmarh()" class="btn btn-primary m-2">Submit</button>
+    </div>
+ </div>
+ <div class="container " id="bookmarkerlist">
+   
+ </div>
+ <footer class="mt-5 ">
+    <div class="container ">
+        <p>© 2019 Bookmarker Inc.</p>
+    </div>
+</footer>
+
+
+    <!--  -->
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
